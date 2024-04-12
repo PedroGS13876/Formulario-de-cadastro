@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Cadastro</title>
+    <link rel="stylesheet" href="./main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jaldi:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="form">
+            <h1>Cadastro</h1>
+            <form>
+                <label for="nome">Nome completo</label>
+                <input id="nome" required type="text">
+
+                <label for="email">Email</label>
+                <input id="email" required type="email">
+
+                <div class="box">
+                    <label for="telefone">Telefone</label>
+                    <input id="telefone" required type="tel">
+
+                    <label for="cpf">CPF</label>
+                    <input id="cpf" required type="text">
+                </div>
+
+                <label for="endereco">Endereço completo</label>
+                <textarea id="endereco" required rows="2"></textarea>
+
+                <label for="cep">CEP</label>
+                <input id="cep" type="tel">
+
+                <button type="submit">Cadastrar</button>
+            </form>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="js/jquery.mask.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
